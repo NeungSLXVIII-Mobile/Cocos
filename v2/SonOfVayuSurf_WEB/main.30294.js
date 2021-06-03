@@ -123,11 +123,7 @@ window.boot = function () {
 if (window.jsb) {
     var isRuntime = (typeof loadRuntime === 'function');
     if (isRuntime) {
-<<<<<<< HEAD:v2/SonOfVayuSurf/main.d892b.js
-        require('src/settings.1b46f.js');
-=======
-        require('src/settings.4a93f.js');
->>>>>>> 438d000f45b51de431e57b9ec325ad9075ea13a1:v2/SonOfVayuSurf/main.7cd3f.js
+        require('src/settings.9e244.js');
         require('src/cocos2d-runtime.js');
         if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
             require('src/physics.js');
@@ -135,11 +131,7 @@ if (window.jsb) {
         require('jsb-adapter/engine/index.js');
     }
     else {
-<<<<<<< HEAD:v2/SonOfVayuSurf/main.d892b.js
-        require('src/settings.1b46f.js');
-=======
-        require('src/settings.4a93f.js');
->>>>>>> 438d000f45b51de431e57b9ec325ad9075ea13a1:v2/SonOfVayuSurf/main.7cd3f.js
+        require('src/settings.9e244.js');
         require('src/cocos2d-jsb.js');
         if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
             require('src/physics.js');
